@@ -11,7 +11,7 @@ venv/
 env/
 
 # Shared-memory backing file created while the demo runs
-shared_mem/.ipc_demo.map
+shared-memory/.ipc_demo.map
 
 # Editor and temporary files
 .idea/

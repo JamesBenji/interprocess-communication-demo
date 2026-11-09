@@ -4,13 +4,13 @@ Small, hands-on demonstrations of two interprocess communication (IPC) approache
 
 ## Shared memory
 
-The `shared_mem` directory contains a two-terminal Python demo backed by one memory-mapped file. It intentionally has no synchronization, making the shared buffer easy to inspect.
+The `shared-memory` directory contains a two-terminal Python demo backed by one memory-mapped file. It intentionally has no synchronization, making the shared buffer easy to inspect.
 
 In separate terminals, run:
 
 ```sh
-python3 shared_mem/term1.py
-python3 shared_mem/term2.py
+python3 shared-memory/term1.py
+python3 shared-memory/term2.py
 ```
 
 Start `term1.py` first. Enter text in either terminal to write it to the shared buffer; the other terminal reports changes. Enter `/quit`, `/exit`, or an empty line to stop.
