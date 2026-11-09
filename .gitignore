@@ -1,0 +1,21 @@
+# macOS Finder metadata
+.DS_Store
+
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+
+# Shared-memory backing file created while the demo runs
+shared_mem/.ipc_demo.map
+
+# Editor and temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
